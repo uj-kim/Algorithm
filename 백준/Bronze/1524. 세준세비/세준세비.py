@@ -1,5 +1,5 @@
-test_case = int(input())
-for _ in range(test_case):
+t = int(input())
+for _ in range(t):
   input()
   n, m = map(int, input().split())
   
