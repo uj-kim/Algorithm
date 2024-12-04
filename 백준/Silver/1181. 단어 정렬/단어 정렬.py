@@ -26,7 +26,6 @@
 '''
 #코드
 import sys
-import heapq
 
 N = int(sys.stdin.readline())
 words = []
