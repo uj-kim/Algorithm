@@ -24,9 +24,8 @@
         => for _ in range(M):
             A, B = map(int, input().split())
 - 탐색 (최단 경로 -> bfs)
-- graph를 딕셔너리 형태로 담아주기
+- graph를 인접리스트 형태로 담아주기
 - 인접노드 탐색(X에서 시작)
-- count 변수 0 만들어주고, popleft()해서 이동할 때 count += 1하는 식.
 - K가 되면 result 배열(오름차순)에 담아주고 하나씩 출력
 '''
 #코드
